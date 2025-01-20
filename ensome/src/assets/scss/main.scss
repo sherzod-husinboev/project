@@ -1,0 +1,17 @@
+// general
+@import "./general/normalize";
+@import "./general/variables";
+
+// component
+@import "./components/about";
+@import "./components/banner";
+@import "./components/newsLetter";
+@import "./components/comments";
+@import "./components/contact";
+@import "./components/help";
+@import "./components/newData";
+@import "./components/static";
+
+// layout
+@import "./layout/footer";
+@import "./layout/header";

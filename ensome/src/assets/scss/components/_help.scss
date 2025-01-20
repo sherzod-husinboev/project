@@ -1,0 +1,66 @@
+.success-section {
+    padding: 80px 120px;
+    background-color: #f1f6fa;
+    text-align: center;
+}
+
+.success-section h2 {
+    font-size: 32px;
+    color: #292d33;
+    margin-bottom: 48px;
+}
+
+.success-cards {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    button {
+        background: none;
+
+        padding: 10px;
+        color: #185cff;
+        margin-right: 5px;
+        border: 2px solid #ebecf0;
+        font-weight: 700;
+        font-size: 14px;
+    }
+}
+
+.card {
+    flex: 1;
+    background: white;
+    padding: 32px;
+    border-radius: 6px;
+    text-align: left;
+    max-width: 450px;
+}
+
+.date {
+    color: #9497a1;
+    font-size: 14px;
+}
+
+.card h3 {
+    margin: 16px 0;
+    font-size: 20px;
+    color: #292d33;
+}
+
+.card p {
+    color: #9497a1;
+    line-height: 1.6;
+}
+
+.learn-more {
+    padding: 16px 32px;
+    background-color: #185cff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.help {}

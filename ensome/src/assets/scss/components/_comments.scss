@@ -1,0 +1,54 @@
+.comment-section {
+    max-width: 1210px;
+    padding: 30px 4px;
+    background-color: white;
+    margin: 0 auto;
+}
+
+.comment-section h1 {
+    font-size: 32px;
+    color: #292d33;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.comment-cards {
+    display: flex;
+    gap: 100px;
+}
+
+.comment-card {
+    flex: 1;
+    background: #f1f6fa;
+    padding: 32px;
+    border-radius: 6px;
+    max-width: 600px;
+}
+
+.quote {
+    color: #292d33;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.author img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.author-info h4 {
+    color: #292d33;
+    margin-bottom: 4px;
+}
+
+.author-info span {
+    color: #9497a1;
+    font-size: 14px;
+}

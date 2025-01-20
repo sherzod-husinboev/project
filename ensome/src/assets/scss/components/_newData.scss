@@ -1,0 +1,72 @@
+.new-data {
+    padding: 4rem 0;
+    background-color: #f8f9fa;
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1rem;
+    }
+
+    .section-wrapper {
+        display: flex;
+        align-items: center;
+        gap: 4rem;
+        margin-bottom: 6rem;
+
+        &.reverse {
+            flex-direction: row-reverse;
+        }
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            gap: 2rem;
+
+            &.reverse {
+                flex-direction: column;
+            }
+        }
+    }
+
+    .content {
+        flex: 1;
+
+        h2 {
+            font-size: 2.5rem;
+            margin-bottom: 1.5rem;
+            color: #1a1a1a;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #666;
+            margin-bottom: 2rem;
+        }
+    }
+
+    .image {
+        flex: 1;
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+
+    .learn-btn {
+        padding: 0.8rem 2rem;
+        background-color: #4361ee;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: #3251db;
+        }
+    }
+}
